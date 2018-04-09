@@ -1,0 +1,42 @@
+.carousel-container {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.carousel-indicators {
+    bottom: 0 !important;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    position: relative;
+    right: 0;
+    bottom: 0px !important;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    text-shadow: none !important;
+    letter-spacing: 1px;
+}
+.Div-caption {
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+.Div-caption h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+.Div-caption p {
+    font-size: 14px;
+    margin: 20px 0;
+}

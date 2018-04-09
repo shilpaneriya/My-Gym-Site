@@ -1,0 +1,458 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Top Bar */
+
+.top_bar {
+    background-color: #f68121;
+    padding: 8px 0;
+}
+
+.top_bar p {
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+
+.topbar_phone img {
+    max-width: 25px;
+    width: 100%;
+}
+
+.social_icons {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.social_icons:hover, .social_icons:active, .social_icons:focus {
+    background: #212121;
+    border-radius: 50%;
+}
+
+.socialmedia_icons i {
+    color: #fff;
+}
+
+/* Navbar */
+
+.fixed-top {
+    top: 40px;
+}
+.white {
+    background-color: #fff;
+}
+
+.scrolling-navbar {
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar.scrolling-navbar.top-nav-collapse {
+	top:0;
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+.logo_wrapper a {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Home Section */
+
+#home_section {
+    background-image: url(../images/home_banner1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+/* About Section */
+
+#about_us {
+    background-color: #f1f1f1;
+    padding-bottom: 70px;
+}
+
+.about_wrapper_section {
+	background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    position: relative;
+    margin-top: -40px;
+}
+
+.orange_background {
+	background-color: #de741e;
+	color:#fff;
+}
+
+.border_line {
+	border:1px solid #fff;
+	padding:10px;
+}
+#about_us .heading {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#about_us .text {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.border_line img {
+    width: 55px;
+    margin-bottom: 10px;
+}
+.border_line a {
+    color: #212121;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.orange_background a {
+	color: #fff;
+}
+
+#about_section, #service_section {
+    padding: 70px 0;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #212121;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.about_btn {
+    margin: 40px 0 10px 0;
+}
+
+.about_btn a {
+    text-decoration: none;
+    background-color: #de741e;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 0 8px 0 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+}
+
+.about_info_title {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about_img {
+    text-align: center;
+}
+
+
+/* Service Section */
+
+.service_bg {
+    background: url(../images/services_bg.jpg);
+    padding: 70px 0;
+    text-align: center;
+    background-position: center center;
+}
+
+.service_icons img {
+    max-height: 80px;
+    height: 100%;
+}
+
+.service_icons .icon_titles {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 25px 0 0 0;
+    letter-spacing: 0.5px;
+}
+
+.service_img img {
+    max-height: 400px;
+    height: 100%;
+}
+
+.service_img {
+    text-align: center;
+}
+
+.service_list {
+    padding: 0 40px;
+}
+
+.service_list .title {
+    font-size: 19px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.service_list li {
+    padding: 10px 0 25px 0;
+}
+
+/* Schedule Section */
+
+#schdedule_section {
+	padding: 70px 0;
+	background-color: #f1f1f1
+}
+.no_padding {
+    padding: 0 0 10px 0;
+}
+.section_subtitle {
+    text-align: center;
+}
+
+.tabs-wrapper, .card {
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    margin: 25px auto;
+}
+.day_schedule img {
+    width: 60px;
+    padding-bottom: 15px;
+}
+.day_schedule {
+    text-align: center;
+}
+.schedule_title {
+	color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.schedule_subtitle {
+    font-size: 15px;
+    color: #212121;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.schedule_timing {
+	padding: 12px 15px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.border_bottom_right {
+    border-bottom: 1px solid #a5a5a5;
+    border-right: 1px solid #a5a5a5;
+}
+.border_bottom {
+    border-bottom: 1px solid #a5a5a5;
+}
+.border_right {
+    border-right: 1px solid #a5a5a5;
+}
+.padding_top {
+	padding-top: 30px;
+}
+
+.tabs-wrapper .nav-item {
+    padding: 0px 26px;
+    border-bottom: 1px solid #a5a5a5;
+    border-top: 1px solid #a5a5a5;
+}
+.tabs-wrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.tabs-wrapper .nav-item a {
+	color: #212121;
+}
+
+.tabs-wrapper .nav-item.active{
+    background: #f68121;
+    border: 1px solid #f68121;
+}
+
+.tabs-wrapper .nav-item.active a {
+   color: #fff;
+}
+
+.tabs-wrapper .nav-item:last-child {
+    border-right: 1px solid #a5a5a5;
+}
+
+/* Image Gallery */
+
+.image_overlay {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.image_overlay .image_thumbnail {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 100%;
+}
+.image_overlay:hover .image_thumbnail {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.overlay {
+    background: rgba(246, 129, 33, 0.8);
+    height: calc(100% - 30px);
+    position: absolute;
+    width: calc(100% - 30px);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.image_overlay:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .image_zoom {
+	position: absolute;
+    width: 50px;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+}
+
+#our_gallery {
+	padding:70px 0;
+}
+
+.padding_0 {
+    padding: 0;
+}
+.img_gallery {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Contact Section */
+
+#contact {
+	padding:70px 0;
+	background-color: #f1f1f1;
+}
+
+.location_map iframe {
+    width: 100%;
+    max-height: 300px;
+}
+.location_map {
+    border: 1px solid #ccc;
+}
+
+.address_wrapper {
+    background: url(../images/contact_bg.png);
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid #b86622;
+    background-color: #b86622;
+}
+
+.address_info {
+    padding: 40px 30px;
+    height: 100%;
+}
+.address_info .title {
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+}
+.media-body p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.media img {
+    width: 26px;
+}
+.social_media_icons {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.social_media_icons img {
+    width: 32px;
+    margin-right: 8px;
+}
+
+.contact_btn {
+    padding: 70px 0 0 0;
+    text-align: center;
+}
+
+.contact_btn a {
+    text-decoration: none;
+    background-color: #353535;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px 0 8px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    box-shadow: 1px 1px 10px 1px rgba(125,125,125,1);
+    font-size: 17px;
+}
+
+/* Footer */
+
+#footer p {
+    background-color: #333132;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+#footer {
+    background-color: #333132;
+    height: 60px;
+    line-height: 60px;
+}
